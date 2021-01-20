@@ -2,7 +2,7 @@ import clipboard, time
 from pynput import mouse, keyboard
 mousee = mouse.Controller()
 keyboardd = keyboard.Controller()
-time.sleep(10) # GOTTA GO TO APP
+time.sleep(10) # TIME TILL GO TO APP
 le_num = 1
 while True: # LOOP DE LOOP
     if not le_num == 1:
