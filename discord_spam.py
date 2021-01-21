@@ -1,6 +1,5 @@
-import clipboard, time
-from pynput import mouse, keyboard
-mousee = mouse.Controller()
+import time
+from pynput import keyboard
 keyboardd = keyboard.Controller()
 time.sleep(10) # TIME TILL GO TO APP
 le_num = 1
