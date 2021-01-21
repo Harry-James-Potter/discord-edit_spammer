@@ -4,7 +4,7 @@ mousee = mouse.Controller()
 keyboardd = keyboard.Controller()
 time.sleep(10) # TIME TILL GO TO APP
 le_num = 1
-while True: # LOOP DE LOOP
+while le_num <= 100: # TILL n.......
     if not le_num == 1:
         keyboardd.press(keyboard.Key.up)
         keyboardd.release(keyboard.Key.enter)
@@ -15,5 +15,3 @@ while True: # LOOP DE LOOP
     keyboardd.release(keyboard.Key.enter)
     time.sleep(1.5) # ADJUST ACCORGINGLY
     le_num += 1
-    if le_num == 101: # TILL.....
-        break
